@@ -1,8 +1,8 @@
 name: Testing workflow
-on:push
+on: push
 jobs:
     test-job:
-        run-on: ubuntu_latest
+        runs-on: ubuntu_latest
         steps:
-            -name: "Hello kkfunda"
-            run: echo "KAMAL KIREETI"
+             -name: "Hello kkfunda"
+         run: echo "KAMAL KIREETI"
