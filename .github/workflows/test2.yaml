@@ -1,1 +1,8 @@
 name: Testing workflow
+on:push
+jobs:
+    test-job:
+        run-on: ubuntu_latest
+        steps:
+            -name: Hello kkfunda'
+            run: echo "KAMAL KIREETI"
