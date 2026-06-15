@@ -6,7 +6,12 @@ on:
 jobs:
   job1:
     runs-on: ubuntu-latest
-
     steps:
       - name: job1 step
         run: echo "this is job1 running"
+
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: job2 step
+        run: echo "this is job2 running"
