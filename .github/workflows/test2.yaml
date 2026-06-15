@@ -4,5 +4,5 @@ jobs:
     test-job:
         run-on: ubuntu_latest
         steps:
-            -name: Hello kkfunda'
+            -name: "Hello kkfunda"
             run: echo "KAMAL KIREETI"
