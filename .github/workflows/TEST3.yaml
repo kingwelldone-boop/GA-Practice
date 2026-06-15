@@ -1,0 +1,10 @@
+name: string demo
+on: workflow_dispatch
+jobs:
+    strings:
+        runs-on: ubuntu-latest
+        steps:
+            -name: convert to uppercase
+            run: echo "kkfunda" | tr 'a-z' 'A-Z'
+            -name: word count
+            run: echo "bangalore " |wc -w
